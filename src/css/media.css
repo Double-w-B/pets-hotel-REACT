@@ -188,6 +188,11 @@
     width: 90%;
     height: 85%;
   }
+
+  .cond-close-btn{
+    top: -1.5rem;
+    right: -1.5rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -281,13 +286,7 @@
     width: 75%;
   }
 
-  .address-img iframe {
-    opacity: 1;
-  }
 
-  .address-img:hover iframe {
-    animation: none;
-  }
 
   .contact-heading {
     height: 55%;

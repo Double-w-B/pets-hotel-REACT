@@ -20,7 +20,7 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: var(--transition);
-    /* removes taps on mobile devices */
+  /* removes taps on mobile devices */
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -715,7 +715,6 @@ main {
   border-radius: 0.5rem;
   cursor: pointer;
   border: 1px solid var(--green);
-
 }
 
 .pic:hover img {
@@ -890,11 +889,7 @@ main {
   height: 40px;
   transform: translateY(0px);
 }
-.cond-close-btn {
-  top: 0.7rem;
 
-  /* background-color: blanchedalmond; */
-}
 .cond-close-btn img {
   width: 28px;
 }
@@ -1215,9 +1210,9 @@ footer div a {
 }
 
 img.hide-logo {
-  height: 0 ;
-  width: 0 ;
-  opacity: 0 ;
+  height: 0;
+  width: 0;
+  opacity: 0;
 }
 
 .pointer-events {
